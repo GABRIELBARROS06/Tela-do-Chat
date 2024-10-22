@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar{
+  display: grid;
+  background-color: aliceblue;
+  width: 40vw;
+  height: 51vw;
+}
+
+.search{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.search > input{
+
+  width: 30vw;
+  height: 40px;
+  margin-top: 10vh;
+
+}
+
+.contacts{
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-Image{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
